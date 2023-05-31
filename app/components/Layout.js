@@ -28,7 +28,7 @@ export default function Layout({children, title = "Landing page", keywords="", d
 
           <div className='flex items-center gap-4'>
             <div><FaBell/></div>
-            <Avatar>P</Avatar>
+            <Avatar sx={{width:"30px", height: "30px"}}>P</Avatar>
           </div>
         </nav>
 
